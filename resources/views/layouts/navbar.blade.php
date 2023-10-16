@@ -15,9 +15,9 @@
                     <a class="nav-link {{ Request::is('home') ? 'active' : '' }}" href="{{ route('home') }}">Home</a>
                 </li>
 
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" href="#">About Us</a>
-                </li> --}}
+                </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button"
@@ -46,14 +46,14 @@
                         href="{{ route('event') }}">Schedule</a>
                 </li>
 
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" href="#">Library</a>
                 </li>
 
 
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
-                </li> --}}
+                </li>
 
                 <li class="nav-item">
                     <a class="btn btn-success bg-green mt-3 ms-3" href="{{ env('APP_LMS_URL') }}">Login</a>
