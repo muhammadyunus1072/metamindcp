@@ -1,0 +1,40 @@
+.text-blue {
+    color: #05436f;
+}
+
+.text-green {
+    color: #02C616;
+}
+
+.divider-green{
+    background-color: #02C616;
+    padding: 1px;
+}
+
+.divider-green-thick{
+    background-color: #02C616;
+    padding: 2px;
+}
+
+.divider-green-thickest{
+    background-color: #02C616;
+    padding: 3px;
+}
+
+.bg-green {
+    background-color: #02C616;
+    border-color: #02C616;
+}
+
+.border-green{
+    color:#02C616;
+    border-color: #02C616;
+}
+
+.bg-dark-blue {
+    background-color: #05436f;
+}
+
+.bg-light-blue {
+    background-color: #e6f2fa;
+}
