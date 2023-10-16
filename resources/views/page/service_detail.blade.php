@@ -17,7 +17,7 @@
     </section>
 
     {{-- SERVICE DETAIL --}}
-    @foreach ($service->details as $item)
+    @foreach ($service->details()->orderBy('position')->get() as $item)
         @include('page.item_service_detail', ['item' => $item])
     @endforeach
 
