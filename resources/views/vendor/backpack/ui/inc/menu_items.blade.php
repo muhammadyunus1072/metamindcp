@@ -2,13 +2,13 @@
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('dashboard') }}"><i class="la la-home nav-icon"></i>
         {{ trans('backpack::base.dashboard') }}</a></li>
 
-<x-backpack::menu-dropdown title="Coaching" icon="la la-chevron-circle-down">
-    <x-backpack::menu-dropdown-item title="Coachings" icon="la la-school" :link="backpack_url('coaching')" />
-</x-backpack::menu-dropdown>
-
-<x-backpack::menu-dropdown title="Service" icon="la la-chevron-circle-down">
+<x-backpack::menu-dropdown itle="Service" icon="la la-chevron-circle-down">
     <x-backpack::menu-dropdown-item title="Services" icon="la la-hand-holding-heart" :link="backpack_url('service')" />
     <x-backpack::menu-dropdown-item title="Service Contents" icon="la la-hand-holding-heart" :link="backpack_url('service-content')" />
+</x-backpack::menu-dropdown>
+
+<x-backpack::menu-dropdown title="Coaching" icon="la la-chevron-circle-down">
+    <x-backpack::menu-dropdown-item title="Coachings" icon="la la-school" :link="backpack_url('coaching')" />
 </x-backpack::menu-dropdown>
 
 <x-backpack::menu-dropdown title="Training" icon="la la-chevron-circle-down">
